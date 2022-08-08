@@ -1,0 +1,1402 @@
+body {
+  margin: 0px;
+  top: 0 !important;
+  font-family: 'Lato';
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+p {
+  margin: 0px;
+}
+
+/*Шрифты*/
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/lato/Lato-Light.ttf);
+  font-weight: 310;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/lato/Lato-LightItalic.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/lato/Lato-Medium.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Playfair_Display_SC';
+  src: url(../fonts/Playfair_Display_SC/PlayfairDisplaySC-Regular.ttf);
+  font-weight: 400;
+}
+
+.main-cont {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 891px;
+}
+
+.header {
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  padding-bottom: 55px;
+  background-color: #FFFBFC;
+}
+
+.portret {
+  width: 1270px;
+  display: inline-block;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  background-color: #FFFBFC;
+  color: #272727;
+  font-size: 140px;
+  font-weight: 400;
+  line-height: 146px;
+  text-align: right;
+  height: 810px;
+  font-family: 'Playfair_Display_SC';
+  background-image: url(../images/portret.png);
+  padding-bottom: 50px;
+}
+#portret-txt2{
+  display: none;
+}
+.portret p {
+  float: right;
+  text-align: left;
+  padding-top: 105px;
+}
+
+.portret span {
+  color: #AD1A0F;
+}
+
+.header-txt {
+  width: 82%;
+  font-family: 'Lato';
+  color: #272727;
+  font-size: 60px;
+  font-weight: 310;
+  line-height: 70px;
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.header-txt p {
+  padding-top: 130px;
+}
+
+.telegram {
+  top: 20px;
+  right: 2%;
+  opacity: 0;
+  position: fixed;
+  z-index: 1000000;
+  visibility: hidden;
+}
+.telegram.show {
+  opacity: 1;
+  visibility: visible;
+}
+.telegram img {
+  width: 37px;
+  height: 32.38px;
+}
+
+.vitaliy {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  padding: 63px 0px 63px 0px;
+}
+
+.main-txt1 {
+  width: 55%;
+  max-width: 891px;
+  display: block;
+  margin: 0 auto;
+  color: #272727;
+  font-size: 30px;
+  font-weight: 310;
+  line-height: 40px;
+  text-align: center;
+  font-family: 'Lato';
+}
+
+#though {
+  text-align: left;
+}
+
+#though:first-child {
+  padding-top: 150px;
+}
+
+.main-txt p {
+  padding-bottom: 35px;
+}
+
+.ellipse1 {
+    width: 100%;
+    margin-top: 346px;
+    padding-bottom: 255px;
+    display: inline-block;
+    background-color: #FAF3F1;
+}
+
+.image {
+  width: 100%;
+  text-align: center;
+}
+#ellipse1{
+  padding-top: 278px;
+}
+#women1 {
+    height: 13.7vw;
+    margin-bottom: -8vw;
+    background-size: 100%;
+    background-color: #FFFFFF;
+    background-image: url(../images/Rectangle1.png);
+}
+
+#women1 img {
+  width: 260px;
+  height: 580px;
+  margin-top: -280px;
+}
+
+.main-txt2 {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  color: #AD1A0F;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: left;
+  line-height: 35px;
+  font-family: 'Lato';
+}
+
+.rose {
+  padding: 24px 0px 72px 0px;
+}
+
+.rose img {
+  height: 83px;
+  width: 253px;
+}
+
+#rose1 img {
+  height: 61.04px;
+  width: 246.86px;
+}
+
+.rhomb {
+  width: 100%;
+  text-align: center;
+  padding: 41px 0px 81px 0px;
+}
+
+.rhomb img {
+  width: 10.62px;
+  height: 10.62px;
+  padding: 0px 18.5px 0px 18.5px;
+}
+
+.content {
+  display: block;
+  margin: 0 auto;
+  max-width: 891px;
+}
+
+#main-txt3 {
+  width: 61.3%;
+  text-align: left;
+}
+
+.quotes {
+  color: #AD1A0F;
+  font-size: 150px;
+  font-weight: 400;
+  margin-top: -120px;
+  padding-bottom: 40px;
+  font-family: 'Playfair_Display_SC';
+}
+
+.genius {
+  max-width: 810px;
+  color: #272727;
+  font-size: 50px;
+  font-weight: 310;
+  line-height: 60px;
+  font-family: 'Lato';
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.parfumes {
+  margin-top: -215px;
+}
+
+.parfumes .women img {
+  width: 260px;
+  height: 580px;
+}
+
+.parfum {
+  padding: 28px 0px 100px 0px;
+}
+
+.parfum img {
+  width: 114px;
+  height: 218px;
+}
+
+.ellipse2 {
+  width: 100%;
+  display: inline-block;
+  background-color: #F6EEE9;
+}
+
+.ellipse2 #main-txt3 {
+  padding-top: 113px;
+}
+
+.ellipse2 .main-txt2 {
+  width: 61.3%;
+}
+
+.ellipse2 .main-txt1 {
+  width: 58%;
+  padding-bottom: 27px;
+}
+
+.ellipse2 #txt2 {
+  padding-bottom: 20px;
+}
+
+.ellipse2 .main-txt p {
+  padding-bottom: 20px;
+}
+
+.ellipse2 .rhomb {
+  padding: 41px 0px 51px 0px;
+}
+
+#last-main-txt3 #main-txt3 {
+  padding-top: 0px;
+}
+
+.ellipse2 #though {
+  text-align: center;
+  padding-bottom: 55px;
+}
+
+.elipse2 {
+  margin-top: -50px;
+  background-color: #FFFFFF;
+}
+
+.elipse2 img {
+  width: 100%;
+  height: 200px;
+}
+
+.vitaliy2 {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+.vitaliy2 img {
+  width: 408px;
+  height: 612px;
+}
+
+.bio {
+  padding: 60px 0px 245px 0px;
+  background-color: #F3EAE3;
+}
+
+.bio .main-txt2 {
+  width: 62%;
+}
+
+.can .women {
+  margin-top: -230px;
+}
+
+.can .women img {
+  height: 630px;
+  width: 258.52px;
+}
+
+.can .txt {
+  max-width: 891px;
+  color: #AD1A0F;
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 310;
+  font-family: 'Lato';
+  text-align: center;
+  padding: 125px 0px 50px 0px;
+}
+
+.can .rose {
+  padding: 20px 0px 55px 0px;
+}
+
+.can #though {
+  color: #272727;
+  padding-top: 0px;
+  text-align: right;
+}
+
+.can #women1 {
+  height: auto;
+  margin-top: 0px;
+  background: none;
+  margin-bottom: auto;
+}
+
+.can #women1 img {
+  width: 508px;
+  height: 654px;
+  margin-top: 0px;
+}
+
+.can .parfum {
+  padding: 60px 0px;
+}
+
+.can .parfum img {
+  width: 199px;
+  height: 168px;
+}
+
+.can .main-txt1 {
+  width: 60%;
+  max-width: 891px;
+}
+
+.can .rhomb {
+  padding: 0px 0px 60px 0px;
+}
+
+.can .quotes {
+  margin-top: -100px;
+}
+
+.can #txt2 {
+  color: #272727;
+  padding-top: 0px;
+}
+
+.ellipse3 {
+  margin-top: 200px;
+  padding-bottom: 80px;
+  background-color: #F0E4DB;
+}
+
+.ellipse3 .elipse2 {
+  width: 100%;
+  height: 201px;
+  background-size: 100%;
+  background-image: url(../images/Rectangle3.png);
+}
+
+.ellipse3 #women1 {
+  padding: 0px;
+  height: 13.8vw;
+  margin: 25px 0px -6vw 0px;
+  background-size: 100%;
+  background-color: #FFFFFF;
+  background-image: url(../images/Rectangle3.png);
+}
+
+.ellipse3 #women1 img {
+  width: 292.63px;
+  height: 580px;
+  margin-top: -200px;
+}
+
+.ellipse3 .txt {
+  width: 69%;
+  max-width: 891px;
+  color: #AD1A0F;
+  display: block;
+  margin: 0 auto;
+  margin-top: -3.5vw;
+  padding-top: 150px;
+}
+
+.ellipse3 #main-txt3 #though {
+  text-align: center;
+}
+
+.ellipse3 .main-txt2 {
+  width: 61%;
+}
+
+.ellipse3 .parfum {
+  padding: 0px 0px 60px 0px;
+}
+
+.ellipse3 .parfum img {
+  width: 222px;
+  height: 222px;
+}
+
+.best {
+  padding-bottom: 115px;
+}
+
+.best #main-txt3 #though {
+  text-align: center;
+}
+
+.help .txt {
+  width: 70%;
+  max-width: 891px;
+  margin: 0 auto;
+}
+
+.help #though {
+  text-align: center;
+}
+
+.help #main-txt3 {
+  padding-top: 0px;
+}
+
+.help .main-txt1 {
+  padding-bottom: 0px;
+}
+
+.help .main-txt p {
+  padding-bottom: 35px;
+}
+
+.can .help .elipse2 {
+  margin-top: 100px;
+}
+
+.expert #women1 {
+  margin-top: -240px;
+}
+
+.expert #women1 img {
+  height: 580px;
+  width: 263.56px;
+}
+
+.expert .txt {
+  width: 69%;
+  max-width: 891px;
+  margin: 0 auto;
+  padding: 150px 0px 35px 0px;
+}
+
+.expert #main-txt3 {
+  width: 61.3%;
+}
+
+.expert #main-txt3 #though {
+  text-align: center;
+}
+
+.expert .parfum {
+  padding: 0px 0px 60px 0px;
+}
+
+.expert .parfum img {
+  height: 168px;
+  width: 186.22px;
+}
+
+.expert .main-txt2 {
+  width: 61.3%;
+}
+
+#smile img {
+  height: 168px;
+  width: 162.02px;
+}
+
+#women3 {
+  padding-bottom: 153px;
+}
+
+#women3 img {
+  width: 341px;
+  height: 656px;
+}
+
+.expert .ellipse3 {
+  margin: 0px;
+}
+
+.expert .ellipse3 #women1 {
+  margin: 0px;
+}
+
+.expert .ellipse3 .txt {
+  margin-top: -100px;
+  max-width: 891px;
+  padding: 0px 0px 35px 0px;
+}
+
+#rose2 img {
+  width: 283px;
+  height: 112px;
+}
+
+.comment {
+  width: 100%;
+  text-align: center;
+  padding-top: 115px;
+  margin: 0 auto;
+  color: #272727;
+  font-size: 30px;
+  font-weight: 310;
+  line-height: 40px;
+  font-family: 'Lato';
+}
+
+.comment p {
+  padding-bottom: 40px;
+}
+
+.comment iframe:nth-child(3) {
+  padding: 0px 72px 40px 72px;
+}
+
+.comment iframe {
+  padding-bottom: 40px;
+}
+
+.meeting {
+  width: 1117px;
+  margin: 0 auto;
+  margin-top: 36px;
+  box-shadow: 16px 16px 10px rgb(240 240 240 / 25%);
+}
+
+.meeting #main-txt3 {
+  width: 65%;
+  padding-top: 78px;
+}
+
+.meeting #though {
+  text-align: center;
+  padding: 0px 0px 60px 0px;
+}
+
+#telega {
+  margin: 0 auto;
+  max-width: 891px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  font-family: 'Lato';
+  text-align: center;
+}
+
+.telega {
+  margin: 0 auto;
+  max-width: 891px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  font-family: 'Lato';
+  text-align: center;
+}
+
+.button {
+  background-color: #039BE5;
+  border: none;
+  color: #FFFFFF;
+  margin-bottom: 55px;
+  padding: 14px 0px 19px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 5px 6px 4px rgba(152, 150, 150, 0.25)
+}
+
+.telega p {
+  display: inline-block;
+  margin-right: 44px;
+}
+
+.telega img {
+  width: 27.72px;
+  height: 23.24px;
+  margin: 0px 14.9px 0px 36.38px;
+}
+
+.footer {
+  width: 100%;
+  height: 220px;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.social {
+  color: #898989;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 30px;
+  max-width: 1117px;
+}
+
+.social p {
+  display: inline-block;
+}
+
+.social p:nth-child(1) {
+  float: left;
+}
+.social a{
+  color: #898989;
+}
+.social a:hover{
+  text-decoration: underline;
+}
+.social p:nth-child(2) {
+  margin-top: 30px;
+  display: inline-block;
+  margin-left: 205px;
+  text-align: center;
+}
+
+.social p:nth-child(3) {
+  float: right;
+  text-align: right;
+}
+.privacy{
+  width: 80%;
+  padding-top: 70px;
+  margin: 0 auto;
+  text-align: left;
+}
+.privacy a{
+  color: #898989;
+  text-decoration: underline;
+}
+.privacy p{
+  padding-bottom: 40px;
+}
+.privacy .head{
+  font-size: 45px;
+line-height: 55px;
+font-weight: 400;
+text-align: center;
+}
+.privacy .text-bold{
+  font-size: 35px;
+line-height: 45px;
+font-weight: 400;
+}
+.privacy .text1{
+  font-size: 25px;
+line-height: 40px;
+font-weight: 310;
+}
+.privacy .text2{
+  padding-left: 50px;
+  font-size: 25px;
+line-height: 40px;
+font-weight: 310;
+}
+@media (max-width: 1990px) {
+  #women1 {
+    margin-bottom: -6vw;
+}
+.ellipse3 #women1 {
+    margin: 25px 0px -5vw 0px;
+}
+}
+@media (max-width: 1440px) {
+  .header-txt {
+    font-size: 4.12vw;
+    line-height: 4.9vw;
+}
+  .portret {
+    height: 56.25vw;
+    width: 88.195vw;
+    font-size: 9.7vw;
+    line-height: 9.2vw;
+  }
+
+  .portret p {
+    padding-top: 7.6vw;
+  }
+
+  .vitaliy {
+    padding: 7.772vw 0px 6vw 0px;
+  }
+  #women1 {
+    margin-bottom: 178px;
+}
+#ellipse1{
+  padding-top: 0px;
+}
+  .rose {
+    padding: 2.5vw 0vw 5.278vw 0vw;
+  }
+
+  .elipse2 {
+    margin-top: -3.5vw;
+  }
+
+  .elipse2 img {
+    height: 13.9vw;
+  }
+
+  .ellipse3 .elipse2 img {
+    height: 13.9vw;
+  }
+  .ellipse3 #women1 {
+      margin: 25px 0px 270px 0px;
+  }
+  .ellipse3 .elipse2 {
+    margin-top: 15.4vw;
+  }
+  .ellipse3 .txt {
+    margin-top: 0px;
+  }
+  .can .elipse2 {
+    margin-top: 3vw;
+  }
+
+  .meeting {
+    width: 77.57vw;
+  }
+
+  .social p:nth-child(2) {
+    margin-left: 19vw;
+  }
+
+  .social {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .social p:nth-child(2) {
+    margin-left: 13vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .social {
+    font-size: 1.76vw;
+    line-height: 2.6vw;
+  }
+
+  .social p:nth-child(2) {
+    margin-left: 10vw;
+  }
+  #women1 {
+    margin-bottom: 238px;
+}
+.ellipse3 #women1 {
+    margin: 25px 0px 300px 0px;
+}
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding-bottom: 7.6vw;
+  }
+
+  .header-txt {
+    width: 90%;
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .portret {
+    width: 100%;
+    height: 65vw;
+    font-size: 12vw;
+    line-height: 12vw;
+  }
+  .telegram {
+      top: 10px;
+  }
+  .telegram img {
+    width: 27px;
+    height: 22.38px;
+  }
+
+  .vitaliy {
+    padding: 95px 0px 95px 0px;
+  }
+
+  .vitaliy img {
+    width: 415px;
+    height: 360px;
+  }
+
+  #though:first-child {
+    padding-top: 70px;
+  }
+
+  .header-txt {
+    width: 90%;
+    font-size: 5.5vw;
+    line-height: 7vw;
+  }
+
+  .ellipse1 {
+    padding-bottom: 200px;
+  }
+
+  #women1 {
+    padding-bottom: 0px;
+    margin-bottom: 268px;
+  }
+
+  .women img {
+    width: 100px;
+    height: 419px;
+  }
+
+  .main-txt1 {
+    width: 70%;
+  }
+
+  .main-txt2 {
+    width: 70%;
+  }
+
+  #main-txt3 {
+    width: 70%;
+  }
+
+  .genius {
+    width: 80%;
+    font-size: 42px;
+  }
+
+  .parfum {
+    padding: 18px 0px 100px 0px;
+  }
+
+  .parfumes {
+    margin-top: -180px;
+  }
+
+  .parfumes .women img {
+    width: 200px;
+    height: 489px;
+  }
+
+  .ellipse2 #main-txt3 {
+    padding-top: 103px;
+  }
+
+  .ellipse2 .main-txt2 {
+    width: 70%;
+  }
+
+  .ellipse2 #txt2 {
+    padding-bottom: 56px;
+  }
+
+  .ellipse2 .main-txt1 {
+    width: 70%;
+  }
+
+  .vitaliy2 img {
+    width: 358px;
+    height: 532px;
+  }
+
+  .bio .main-txt2 {
+    width: 70%;
+  }
+
+  .bio {
+    padding: 50px 0px 185px 0px;
+  }
+
+  .can .women {
+    margin-top: -180px;
+  }
+
+  .can .women img {
+    height: 490px;
+    width: 218.52px;
+  }
+
+  .can .txt {
+    font-size: 43px;
+    max-width: 891px;
+    padding: 100px 0px 40px 0px;
+  }
+
+  .can #women1 img {
+    width: 408px;
+    height: 504px;
+  }
+
+  .can .main-txt1 {
+    width: 70%;
+  }
+
+  .can .parfum {
+    padding: 30px 0px;
+  }
+
+  .can .parfum img {
+    width: 159px;
+    height: 128px;
+  }
+
+  .can #txt2 {
+    font-size: 43px;
+    padding: 0px 0px 40px 0px;
+  }
+
+  .can #though:first-child {
+    padding-top: 0px;
+  }
+
+  .ellipse3 {
+    margin-top: 165px;
+  }
+
+  .ellipse3 #women1 img {
+    height: 530px;
+    width: 262.63px;
+    margin-top: -175px;
+  }
+
+  .ellipse3 .main-txt2 {
+    width: 70%;
+  }
+
+  .best {
+    padding-bottom: 55px;
+  }
+
+  .can .help {
+    margin-top: 80px;
+  }
+
+  .help #main-txt3 {
+    padding-top: 0px;
+  }
+
+  .expert #women1 {
+    margin-top: -145px;
+  }
+
+  .can .expert #women1 img {
+    width: 163.56px;
+    height: 350px;
+  }
+
+  .can .help .elipse2 {
+    margin-top: 80px;
+  }
+
+  .can .expert .txt {
+    max-width: 891px;
+    padding: 50px 0px 40px 0px;
+  }
+
+  .expert .parfum img {
+    height: 168px;
+    width: 186.22px;
+  }
+
+  .expert .main-txt2 {
+    width: 70%;
+  }
+
+  .expert #main-txt3 {
+    width: 70%;
+  }
+
+  .expert .ellipse3 .txt {
+    max-width: 891px;
+    font-size: 38px;
+    margin-top: -7vw;
+    line-height: 55px;
+  }
+
+  #women3 img {
+    width: 271px;
+    height: 546px;
+  }
+
+  #women3 {
+    padding-bottom: 90px;
+  }
+
+  .meeting {
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .meeting #main-txt3 {
+    width: 70%;
+  }
+
+  .comment {
+    padding-top: 75px;
+  }
+
+  #telega {
+    width: 70%;
+  }
+
+  .telega {
+    width: 70%;
+  }
+
+  .footer {
+    height: 350px;
+  }
+
+  .social {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .social p {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .social p:nth-child(1) {
+    float: none;
+  }
+
+  .social p:nth-child(2) {
+    float: none;
+    margin: 0px;
+    padding: 10px 0px;
+  }
+
+  .social p:nth-child(3) {
+    float: none;
+    text-align: center;
+  }
+  .privacy{
+    width: 85%;
+  }
+}
+
+@media (max-width: 500px) {
+  .comment iframe:nth-child(3) {
+    padding: 0px 0px 72px 0px;
+  }
+  .privacy .text2{
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header {
+    padding-bottom: 55px;
+  }
+
+  .header-txt {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .portret p {
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    line-height: 56px;
+    padding-top: 116vw;
+  }
+  .portret {
+    height: 700px;
+    background-size: 100%;
+    background-image: url(../images/portret2.png);
+}
+#portret-txt1{
+  display: none;
+}
+#portret-txt2{
+  display: block;
+}
+  #portret-txt p{
+  padding-top: 40px;
+      width: 100%;
+      font-size: 40px;
+      text-align: center;
+      line-height: 46px;
+  }
+  .main-txt p {
+    padding-bottom: 30px;
+  }
+
+  .main-txt1 {
+    width: 85%;
+    font-size: 25px;
+  }
+
+  .main-txt2 {
+    width: 85%;
+    font-size: 23px;
+  }
+
+  #main-txt3 {
+    width: 85%;
+  }
+
+  #though:first-child {
+    padding-top: 55px;
+  }
+
+
+  .telegram img {
+    width: 24px;
+    height: 19.38px;
+  }
+
+  .vitaliy {
+    padding: 43px 0px 40px 0px;
+  }
+
+  .vitaliy img {
+    width: 95vw;
+    height: 80vw;
+  }
+
+  .rose img {
+    height: 72px;
+    width: 212px;
+  }
+
+  .rhomb {
+    padding: 26px 0px 66px 0px;
+  }
+
+  .genius {
+    width: 85%;
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .quotes {
+    font-size: 115px;
+    margin-top: -95px;
+    padding-bottom: 25px;
+  }
+
+  #rose1 img {
+    height: 51.04px;
+    width: 216.86px;
+  }
+
+  .ellipse2 #main-txt3 {
+    padding-top: 83px;
+  }
+
+  .parfum {
+    padding: 10px 0px 70px 0px;
+  }
+
+  .parfum img {
+    width: 94px;
+    height: 188px;
+  }
+
+  .ellipse2 .main-txt2 {
+    width: 85%;
+  }
+
+  .ellipse2 .main-txt1 {
+    width: 85%;
+  }
+
+  .vitaliy2 img {
+    width: 318px;
+    height: 472px;
+  }
+
+  .bio {
+    padding: 50px 0px 165px 0px;
+  }
+
+  .bio .main-txt2 {
+    width: 85%;
+  }
+
+  .can .women {
+    margin-top: -150px;
+  }
+
+  .can .women img {
+    width: 188.52;
+    height: 410px;
+  }
+
+  .can #women1 img {
+    width: 310px;
+    height: 384px;
+  }
+
+  .can .txt {
+    width: 90%;
+    max-width: 891px;
+    margin: 0 auto;
+    padding: 70px 0px 40px 0px;
+  }
+
+  .can .main-txt1 {
+    width: 85%;
+  }
+
+  .can #txt2 {
+    font-size: 40px;
+  }
+
+  .ellipse3 #women1 img {
+    width: 232.63px;
+    height: 450px;
+    margin-top: -150px;
+  }
+
+  .best {
+    padding-bottom: 0px;
+  }
+
+  .help #main-txt3 {
+    padding-top: 0px;
+  }
+
+  .ellipse3 .main-txt2 {
+    width: 85%;
+  }
+
+  .ellipse3 {
+    padding-bottom: 50px;
+  }
+
+  .expert .txt {
+    width: 85%;
+    max-width: 891px;
+  }
+
+  .expert #main-txt3 {
+    width: 85%;
+  }
+
+  #women3 {
+    padding-bottom: 50px;
+  }
+
+  .expert .main-txt2 {
+    width: 85%;
+  }
+
+  .expert .ellipse3 .txt {
+    margin-top: -4vw;
+    max-width: 891px;
+  }
+
+  .meeting #main-txt3 {
+    padding-top: 28px;
+    width: 85%;
+  }
+
+  .comment {
+    padding-top: 50px;
+  }
+
+  .comment iframe {
+    width: 85%;
+    padding-bottom: 35px;
+  }
+
+  .comment #though:first-child {
+    padding: 0px 0px 50px 0px;
+  }
+
+  .comment iframe:nth-child(3) {
+    padding: 0px 0px 35px 0px;
+  }
+
+  #telega {
+    width: 85%;
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .telega {
+    width: 85%;
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 375px) {
+  .vitaliy2 img {
+    width: 278px;
+    height: 412px;
+  }
+
+  .ellipse3 {
+    padding-bottom: 25px;
+  }
+
+  .meeting #main-txt3 {
+    padding-top: 0px;
+  }
+  .privacy .head {
+    font-size: 41px;
+    line-height: 45px;
+    text-align: left;
+}
+  .privacy .text1 {
+    font-size: 21px;
+    line-height: 34px;
+}
+.privacy .text2 {
+  font-size: 21px;
+  line-height: 34px;
+}
+  .privacy .text-bold {
+    font-size: 30px;
+    line-height: 40px;
+}
+}
